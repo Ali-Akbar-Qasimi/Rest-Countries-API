@@ -12,7 +12,7 @@
 
 .body.dark-mode * {
   background-color: #111517 !important;
-  color: #fafafa;
+  color: #fafafa !important;
 }
 
 .container {
