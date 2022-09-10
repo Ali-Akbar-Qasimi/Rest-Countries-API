@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Countries of the world</title>
+</head>
+<body class="body">
+     <div class="container">
+        <nav class='nav'>
+           <div class="logo">Where in the world?</div>
+           <div class="theme-switcher">
+               <span class="material-symbols-outlined">
+                   dark_mode
+               </span>
+               <div class="theme-switcher-text">Dark Mode</div>
+           </div>
+        </nav>
+        <div class="search-container">
+            <div class="search">
+                <label class="search-icon" for="search"><span class="material-symbols-outlined">search</span></label>
+                <input class="search-input" placeholder="Search for a country..."  id="search" type="text">
+            </div>
+            <div class="region-filter">
+                <select class="region" name="Region">
+                    <option value="All">All</option>
+                    <option value="Africa">Africa</option>
+                    <option value="America">America</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Oceania">Oceania</option>
+                </select>
+            </div>
+        </div>
+        <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        <div class="country-cards-container">
+        </div>
+        <div class="detail-page">
+
+     </div>
+
+
+     <script src="./scirpt.js"></script>
+</body>
+</html>
